@@ -35,14 +35,16 @@ Training in the A3C models is, pound for pound, much more efficient as compared 
 and ANN counterparts. The data that the model is fed for training if often much more complex in
 A3C models, allowing them to solve problems much larger in scale as compared to their convolutional
 and artifical neural network cousins. However, the task of training can be quite computer 
-resource intensive as the data fed is often quite large. In the case of Breakout A3C, the model
-is fed mp4 videos to learn to play the game of breakout.
+resource intensive as the data fed is often quite large. In the case of the Breakout A3C, the agent
+plays games of Breakout and figures out spatial relationships between the ball and the paddle.
+The progess of the AI can be seen via the mp4 videos that are created by the AI playing the game.
 
 #### Required libraries
 ##### Run the following commands in the terminal to acquire the required libraries (Linux and MacOS)
-conda install -c akode gym 
-conda install -c menpo ffmpeg 
-conda install -c pytorch pytorch 
-conda install -c conda-forge opencv 
+* conda install -c akode gym
+* conda install -c menpo ffmpeg
+* conda install -c pytorch pytorch
+* conda install -c conda-forge opencv
+
 
 ![Screenshot of the Breakout game](screenshot.png)
