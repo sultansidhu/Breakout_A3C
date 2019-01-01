@@ -29,3 +29,18 @@ therefore allows it to accurately predict the optimal position to be in.
 LSTM was required within the model because the motion of the ball can occur at an angle, 
 and a single snapshot in time cannot provide the agent with enough information with regards
 to optimal positioning.
+
+### Training
+Training in the A3C models is, pound for pound, much more efficient as compared to their CNN
+and ANN counterparts. The data that the model is fed for training if often much more complex in
+A3C models, allowing them to solve problems much larger in scale as compared to their convolutional
+and artifical neural network cousins. However, the task of training can be quite computer 
+resource intensive as the data fed is often quite large. In the case of Breakout A3C, the model
+is fed mp4 videos to learn to play the game of breakout.
+
+#### Required libraries
+##### Run the following commands in the terminal to acquire the required libraries (Linux and MacOS)
+conda install -c akode gym
+conda install -c menpo ffmpeg
+conda install -c pytorch pytorch
+conda install -c conda-forge opencv
