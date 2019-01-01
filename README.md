@@ -40,7 +40,9 @@ is fed mp4 videos to learn to play the game of breakout.
 
 #### Required libraries
 ##### Run the following commands in the terminal to acquire the required libraries (Linux and MacOS)
-conda install -c akode gym
-conda install -c menpo ffmpeg
-conda install -c pytorch pytorch
-conda install -c conda-forge opencv
+conda install -c akode gym 
+conda install -c menpo ffmpeg 
+conda install -c pytorch pytorch 
+conda install -c conda-forge opencv 
+
+![Screenshot of the Breakout game](screenshot.png)
